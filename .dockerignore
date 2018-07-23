@@ -1,0 +1,5 @@
+package.json
+prisma.yml
+node_modules
+.env*
+package-lock.json

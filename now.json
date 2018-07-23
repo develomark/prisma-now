@@ -1,0 +1,9 @@
+{
+  "name": "prisma-now",
+  "build": {
+    "env": {
+      "PRISMA_MANAGEMENT_API_SECRET": "@PRISMA_MANAGEMENT_API_SECRET",
+      "SQL_PASSWORD": "@SQL_PASSWORD"
+    }
+  }
+}

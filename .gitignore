@@ -1,0 +1,5 @@
+.env*
+# dependencies
+node_modules
+package-lock.json
+config.yml
