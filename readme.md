@@ -7,16 +7,16 @@ An example of prisma server deployment to Zeit Now with build-time environment v
 Create now secrets for your sql and prisma api passwords:
 
 ```console
-now secret add SQL_PASSWORD <your_value>
-now secret add PRISMA_MANAGEMENT_API_SECRET <your_value>
+> now secret add SQL_PASSWORD <your_value>
+> now secret add PRISMA_MANAGEMENT_API_SECRET <your_value>
 ```
 
-Amend `config.yml` to point to your SQL Server:
+Amend `now.json` to point to your SQL Server:
 (This can be hosted anywhere, Google Cloud, AWS etc.)
 
-```
+```now.json
 ...
-host: <your_sql_host>
+"SQL_HOST": "<your_sql_host>"
 ...
 ```
 
