@@ -5,7 +5,7 @@ databases:
         connector: mysql
         host: SQL_HOST
         port: 3306
-        user: prisma
+        user: root
         password: SQL_PASSWORD
         migrations: true
         active: true
