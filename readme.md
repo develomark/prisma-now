@@ -34,10 +34,7 @@ Then you are ready to deploy!
 ```
 
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
-<hr>
-<p align="center">
-  <img src="https://img.shields.io/badge/built-with_♡_by-red.svg?style=for-the-badge"/><a href="https://github.com/develomark" target="-_blank"><img src="https://img.shields.io/badge/develomark-yellow.svg?longCache=true&style=for-the-badge"/></a>
-</p>
+
