@@ -7,8 +7,8 @@ An example of prisma server deployment to Zeit Now with build-time environment v
 Create now secrets for your sql and prisma api passwords:
 
 ```console
-> now secret add SQL_PASSWORD <your_value>
-> now secret add PRISMA_MANAGEMENT_API_SECRET <your_value>
+> now secret add sql-password <your_value>
+> now secret add prisma-management-api-secret <your_value>
 ```
 
 Amend `now.json` to point to your SQL Server:
@@ -30,5 +30,5 @@ FROM prismagraphql/prisma:1.13-beta
 Then you are ready to deploy!
 
 ```console
-now
+> now
 ```

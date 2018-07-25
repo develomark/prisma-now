@@ -1,0 +1,11 @@
+managementApiSecret: PRISMA_MANAGEMENT_API_SECRET
+port: 4466
+databases:
+    default:
+        connector: mysql
+        host: SQL_HOST
+        port: 3306
+        user: prisma
+        password: SQL_PASSWORD
+        migrations: true
+        active: true
