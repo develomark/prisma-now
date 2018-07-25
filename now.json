@@ -4,7 +4,7 @@
   "public": true,
   "build": {
     "env": {
-      "SQL_HOST": "35.204.13.99",
+      "SQL_HOST": "<your_sql_host>",
       "SQL_PASSWORD": "@sql-password",
       "PRISMA_MANAGEMENT_API_SECRET": "@prisma-management-api-secret"
     }
