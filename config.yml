@@ -2,10 +2,10 @@ managementApiSecret: PRISMA_MANAGEMENT_API_SECRET
 port: 4466
 databases:
     default:
-        connector: mysql
+        connector: mysql # or 'postgres'
         host: SQL_HOST
-        port: 3306
-        user: root
+        port: 3306 # or '5432' for postgres
+        user: prisma
         password: SQL_PASSWORD
         migrations: true
         active: true
