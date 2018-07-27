@@ -33,6 +33,10 @@ Then you are ready to deploy!
 > now
 ```
 
+## Extended Tutorial
+
+https://www.prisma.io/docs/tutorials/deploy-prisma-servers/zeit-now-and-google-cloud-sql-mohj5eiwot
+
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details
