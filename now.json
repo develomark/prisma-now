@@ -2,6 +2,9 @@
   "name": "prisma-now",
   "type": "docker",
   "public": false,
+  "features": { 
+    "cloud": "v1" 
+  },
   "build": {
     "env": {
       "SQL_HOST": "<your_sql_host>",
